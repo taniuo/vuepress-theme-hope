@@ -63,6 +63,19 @@ export interface AppearanceOptions {
   pure?: boolean;
 
   /**
+   * Whether enable focus mode
+   *
+   * @description Focus mode will be enabled by default when the `pure` mode is enabled
+   *
+   * 是否开启沉浸模式
+   *
+   * @description 当 `pure` 模式启用时，沉浸模式将被默认启用
+   *
+   * @default false
+   */
+  focus?: boolean;
+
+  /**
    * Dark mode support options:
    *
    * - `"switch"`: switch between dark, light and auto (default)

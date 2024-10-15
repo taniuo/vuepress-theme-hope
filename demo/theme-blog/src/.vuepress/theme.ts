@@ -26,6 +26,8 @@ export default hopeTheme(
 
     hotReload: true,
 
+    pure: true,
+
     blog: {
       medias: {
         Baidu: "https://example.com",
