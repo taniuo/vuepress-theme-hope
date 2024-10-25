@@ -311,17 +311,10 @@ blogs:
     repo: https://github.com/mo7cc/BlogSource.git
     preview: https://file.mo7.cc/disk/blog_preview.png
 
-  - name: 被遗忘的博客
-    desc: 个人博客，记录生活和随想
-    logo: https://wenchao.ren/logo.jpg
-    url: https://wenchao.ren/
-    repo: https://github.com/xkrivzooh/wenchao.ren
-    preview: /assets/image/wenchao_blog_preview.png
-
   - name: 计算机应试全家桶
     desc: 磨刀不误砍柴工、读完硕士再打工...
-    logo: https://408.142vip.cn/assets/408_logo.png
-    url: https://408.142vip.cn/
+    logo: https://142vip.github.io/408CSFamily/408_logo.png
+    url: https://142vip.github.io/408CSFamily/
     repo: https://github.com/142vip/408CSFamily
     preview: /assets/image/cs.jpg
 
@@ -392,13 +385,6 @@ blogs:
     url: https://timpcfan.site/
     repo: https://github.com/timpcfan/timpcfan.github.io
     preview: /assets/image/transtan-lei.jpg
-
-  - name: weiser's blog
-    desc: 一个有纸、笔、橡皮擦并且坚持严格的行为准则的人，实质上就是一台通用图灵机。
-    logo: https://weiser.fun/logo.png
-    url: https://weiser.fun/
-    repo: https://github.com/xwzbupt/personal-site
-    preview: /assets/image/weiser.jpg
 
   - name: White's Blog
     desc: Good good study, Day day up!

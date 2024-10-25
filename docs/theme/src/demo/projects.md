@@ -13,13 +13,6 @@ docs:
     repo: https://github.com/walinejs/waline
     preview: /assets/image/waline.jpg
 
-  - name: zkSync Era
-    desc: A trustless protocol that uses cryptographic validity proofs to provide scalable and low-cost transactions on Ethereum
-    logo: https://docs.zksync.io/zksync_logo_black.svg
-    url: https://docs.zksync.io/
-    repo: https://github.com/matter-labs/zksync-web-era-docs
-    preview: /assets/image/zksync.jpg
-
   - name: SubQuery
     desc: |-
       SubQuery is a leading web3 data indexer that provides fast, flexible, and decentralised APIs for web3 projects
