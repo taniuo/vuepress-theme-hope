@@ -129,8 +129,8 @@ importers:
         specifier: 5.7.2
         version: 5.7.2
       vite:
-        specifier: 5.4.11
-        version: 5.4.11(@types/node@22.9.2)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)
+        specifier: 6.0.2
+        version: 6.0.2(@types/node@22.9.2)(jiti@1.21.6)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1)
       vitest:
         specifier: 2.1.5
         version: 2.1.5(@types/node@22.9.2)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)
@@ -1093,8 +1093,8 @@ importers:
         specifier: 4.27.3
         version: 4.27.3
       vite:
-        specifier: 5.4.11
-        version: 5.4.11(@types/node@22.9.2)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)
+        specifier: 6.0.2
+        version: 6.0.2(@types/node@22.9.2)(jiti@1.21.6)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1)
 
   packages/theme:
     dependencies:
@@ -9602,6 +9602,46 @@ packages:
       sugarss:
         optional: true
       terser:
+        optional: true
+
+  vite@6.0.2:
+    resolution: {integrity: sha512-XdQ+VsY2tJpBsKGs0wf3U/+azx8BBpYRHFAyKm5VeEZNOJZRB63q7Sc8Iup3k0TrN3KO6QgyzFf+opSbfY1y0g==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      jiti: '>=1.21.0'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
         optional: true
 
   vitest@2.1.5:
@@ -19501,6 +19541,22 @@ snapshots:
       sass: 1.81.0
       sass-embedded: 1.81.0
       terser: 5.36.0
+
+  vite@6.0.2(@types/node@22.9.2)(jiti@1.21.6)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0)(tsx@4.19.2)(yaml@2.6.1):
+    dependencies:
+      esbuild: 0.24.0
+      postcss: 8.4.49
+      rollup: 4.27.3
+    optionalDependencies:
+      '@types/node': 22.9.2
+      fsevents: 2.3.3
+      jiti: 1.21.6
+      lightningcss: 1.28.1
+      sass: 1.81.0
+      sass-embedded: 1.81.0
+      terser: 5.36.0
+      tsx: 4.19.2
+      yaml: 2.6.1
 
   vitest@2.1.5(@types/node@22.9.2)(lightningcss@1.28.1)(sass-embedded@1.81.0)(sass@1.81.0)(terser@5.36.0):
     dependencies:
